@@ -49,6 +49,6 @@ if [ "$pass" = "$repass" ] && [ "$name" != "$Sname" ]; then
     echo "User $name created successfully!"
 sleep 2
     reg=true
-bash user_login.sh
+bash socialNet.sh
 fi
 done
